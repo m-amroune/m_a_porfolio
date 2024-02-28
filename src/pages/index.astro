@@ -3,7 +3,7 @@ import { info } from "@data";
 
 import Layout from "@layouts/Layout.astro";
 import Hero from "@components/home/Hero.astro";
-import Experience from "@components/home/Experience.astro";
+
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 
@@ -28,10 +28,82 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
-      <Experience title={"EXPERIENCE"} details={info.experience} />
-      <Experience title={"EDUCATION"} details={info.education} />
+
       <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
+        <h2 class="w-[15rem] dark:text-light mt-16">COMPÉTENCES</h2>
+
+        <h3
+          class="text-lg p-5 text-center grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-8 my-16 w-[46rem] dark:text-light mt-6"
+        >
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >HTML5
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >CSS3
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            FLEXBOX
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >GRID
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            SCSS
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >ARIA
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >JAVASCRIPT
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >REACT
+          </span>
+
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            REDUX
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >JEST
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >NPM
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >SWAGGER
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >GIT
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+            >GITHUB
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            FIGMA
+          </span>
+        </h3>
+
+        <h2 class="w-[15rem] dark:text-light mt-16">PROJETS</h2>
+
         <ProjectsWrapper projects={featureProjects} />
       </section>
     </Layout>

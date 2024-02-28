@@ -1,97 +1,111 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  name: "Bienvenue sur mon site",
+  jobDescription: "développeur front-end",
+  about: `Je suis Moustapha Amroune, un développeur front-end bordelais. Suite à une action de formation, je me suis lancé dans l'aventure du développement web. Cela m'a notamment amené à suivre un parcours de formation développeur front-end  composé de 11 projets professionnalisants chez OpenClassrooms. J'ai ainsi pu acquérir un large panel de compétences dans l'univers de la programmation (JavaScript, React, Redux, etc.) et tout ce qui gravite autour (Intégration, Web design, Méthode agile). Je continue à me former en autodidacte sur d'autres technologies (Tailwind, Node.js, etc.) afin de continuer à élargir mes compétences.
+  Vous trouverez sur ce site toutes les réalisations faites au cours de mon cursus de formation.
+   
   `,
 
-  experience: [
-    {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
-      description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
-    },
-
-    {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
-      description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
-      ],
-    },
-  ],
-
-  education: [
-    {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
-      description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
-      ],
-    },
-    {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
-  ],
-
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://github.com/m-amroune",
+    email: "mailto:amroune.moustapha@gmail.com",
+    linkedin: "https://www.linkedin.com/in/moustapha-amroune-839986182/",
   },
+
+  competences: [
+    {
+      title:
+        "HRNet (Wealth Health) : Faites passer une librairie jQuery vers React",
+      isFeatured: true,
+      thumbnail: "/assets/images/hrnet.png",
+      githubUrl: "https://github.com/m-amroune/HRNet/tree/main",
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+    },
+  ],
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title:
+        "HRNet (Wealth Health) : Faites passer une librairie jQuery vers React",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/hrnet.png",
+      githubUrl: "https://github.com/m-amroune/HRNet/tree/main",
+      liveUrl: "",
+    },
+    {
+      title:
+        "Argent Bank : Utilisez une API pour un compte utilisateur bancaire avec React",
+      isFeatured: true,
+      thumbnail: "/assets/images/argent-bank.png",
+      githubUrl: "https://github.com/m-amroune/argent-bank-p13",
+      liveUrl: "",
+    },
+    {
+      title: "SportSee : Développez un tableau de bord d'analytics avec React",
+      isFeatured: true,
+      thumbnail: "/assets/images/sportsee.png",
+      githubUrl: "https://github.com/m-amroune/SportSee",
+      liveUrl: "",
+    },
+    {
+      title: "Kasa : Développez une application Web avec React et React Router",
+      isFeatured: true,
+      thumbnail: "/assets/images/kasa.png",
+      githubUrl: "hhttps://github.com/m-amroune/kasa_p11",
+      liveUrl: "https://kasa-m-amroune.netlify.app/",
+    },
+    {
+      title:
+        "Learn@Home : Définissez les besoins pour une app de soutien scolaire",
+      isFeatured: true,
+      thumbnail: "/assets/images/learnhome.png",
+      liveUrl:
+        "https://www.figma.com/file/q3VMIqlZYBsSpw7QDsSw7w/Learn%40Home?type=design&node-id=5-2&mode=design&t=8yluODXU9GxU0Tyx-0",
+    },
+    {
+      title: "Billed : Débuggez et testez un SaaS RH",
+      isFeatured: true,
+      thumbnail: "/assets/images/billed.png",
+      githubUrl: "https://github.com/m-amroune/Billed-app-FR-Front",
+      liveUrl: "",
+    },
+    {
+      title:
+        "Les petits plats : Développez un algorithme de recherche en JavaScript",
+      isFeatured: true,
+      thumbnail: "/assets/images/les-petits-plats.png",
+      githubUrl: "https://github.com/m-amroune/MoustaphaAmroune_7_16122021",
+      liveUrl: "https://les-petits-plats-m-amroune.netlify.app/",
+    },
+    {
+      title:
+        "Fisheye : Créez un site accessible pour une plateforme de photographes",
+      isFeatured: true,
+      thumbnail: "/assets/images/fisheye.png",
+      githubUrl: "https://github.com/m-amroune/MoustaphaAmroune_6_10072021",
+      liveUrl: "https://fisheye-m-amroune.netlify.app/",
+    },
+    {
+      title: "Gameon : Créez une landing page avec JavaScript",
+      isFeatured: true,
+      thumbnail: "/assets/images/gameon.png",
+      githubUrl: "https://github.com/m-amroune/GameOn-website-FR",
+      liveUrl: "",
+    },
+    {
+      title: "Ohmyfood : Dynamyser une page web avec des animations CSS",
+      isFeatured: true,
+      thumbnail: "/assets/images/ohmyfood.png",
+      githubUrl: "https://github.com/m-amroune/MoustaphaAmroune_3_24032021",
+      liveUrl: "https://m-amroune.github.io/MoustaphaAmroune_3_24032021/",
+    },
+    {
+      title: "Reservia : Transformez une maquette en site web avec HTML & CSS",
+      isFeatured: true,
+      thumbnail: "/assets/images/reservia.png",
+      githubUrl: "https://github.com/m-amroune/MoustaphaAmroune_2_24012021",
+      liveUrl: "https://m-amroune.github.io/MoustaphaAmroune_2_24012021/",
     },
   ],
 };
