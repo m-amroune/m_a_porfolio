@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "",
   name: "Bienvenue sur mon site",
   jobDescription: "développeur front-end",
-  about: `Je suis Moustapha Amroune, un développeur front-end bordelais. Suite à une action de formation, je me suis lancé dans l'aventure du développement web. Cela m'a notamment amené à suivre un parcours de formation développeur front-end  composé de 11 projets professionnalisants chez OpenClassrooms. J'ai ainsi pu acquérir un large panel de compétences dans l'univers de la programmation (JavaScript, React, Redux, etc.) et tout ce qui gravite autour (Intégration, Web design, Méthode agile). Je continue à me former en autodidacte sur d'autres technologies (Tailwind, Node.js, etc.) afin de continuer à élargir mes compétences.
+  about: `Je suis Moustapha Amroune, un développeur front-end bordelais. Suite à une action de formation, je me suis lancé dans l'aventure du développement web, ce qui m'a notamment amené à suivre un parcours de formation développeur front-end  composé de 11 projets professionnalisants chez OpenClassrooms. J'ai pu acquérir un large panel de compétences dans l'univers de la programmation (JavaScript, React, Redux, etc.) et tout ce qui gravite autour (Intégration, Web design, Méthode agile). Je continue à me former en autodidacte sur d'autres technologies (Tailwind, Node.js, etc.) afin de continuer à élargir mes compétences.
   Vous trouverez sur ce site toutes les réalisations faites au cours de mon cursus de formation.
    
   `,

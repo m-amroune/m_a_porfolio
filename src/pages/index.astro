@@ -30,10 +30,10 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <Hero name={info.name} about={info.about} />
 
       <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">COMPÉTENCES</h2>
+        <h2 class="text-center dark:text-light mt-16">COMPÉTENCES</h2>
 
         <h3
-          class="text-lg p-5 text-center grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-8 my-16 w-[46rem] dark:text-light mt-6"
+          class="text-lg p-5 text-center grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-8 my-16 dark:text-light mt-6"
         >
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
@@ -101,10 +101,22 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
             FIGMA
           </span>
         </h3>
-
-        <h2 class="w-[15rem] dark:text-light mt-16">PROJETS</h2>
+        <hr class="text-stone-900 dark:text-light mx-auto w-2/3" />
+        <h2 class="text-center dark:text-light mt-16">PROJETS</h2>
 
         <ProjectsWrapper projects={featureProjects} />
+        <h2 class="pb-24 flex justify-end">
+          <a
+            class="flex dark:text-light flex-right flex-nowrap decoration-clone bg-gradient-to-r from-slate-400 via-slate-500 to-slate-500 p-1.5 w-60 text-center rounded-xl"
+            href="/projects"
+            "
+          >
+            Voir tous les projets <img
+              class="w-8"
+              src="/public/assets/images/arrow.svg"
+            />
+          </a>
+        </h2>
       </section>
     </Layout>
   </body>

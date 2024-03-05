@@ -1,12 +1,28 @@
 ---
 import { IHeroProps } from "@types";
 
-const { name, about } = Astro.props as IHeroProps;
+const { name } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <h1>{name}</h1>
-  <p class="dark:text-light text-lg mb-16">
-    {about}
+  <h1 class="max-sm:text-xl">{name}</h1>
+
+  <p class="dark:text-light text-lg max-sm:text-sm mb-16">
+    Je suis Moustapha Amroune, un <b class="font-semibold">
+      développeur frond-end</b
+    > bordelais. Curieux de nature et persévérant, je me suis lancé dans l'aventure
+    du développement web suite à une action de formation. Cela m'a amené à suivre
+    un parcours composé de <b class="font-semibold">
+      11 projets professionnalisants</b
+    > chez OpenClassrooms. <br /> J'ai pu acquérir un large panel de
+    <b>compétences</b>
+    dans l'univers de la programmation (JavaScript, React, Redux, etc.) et tout ce
+    qui gravite autour (Intégration, Webdesign). Je continue à me former en <b
+      class="font-semibold">autodidacte</b
+    > sur d'autres technologies (Tailwind, Node.js, etc.) afin de continuer à élargir
+    mes compétences. Vous trouverez sur ce site <b class="font-semibold">
+      tous les projets</b
+    > réalisés au cours de mon cursus de formation.
   </p>
+  <hr class="text-stone-900 dark:text-light mx-auto w-2/3" />
 </section>
