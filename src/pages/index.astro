@@ -105,18 +105,30 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
         <h2 class="text-center dark:text-light mt-16">PROJETS</h2>
 
         <ProjectsWrapper projects={featureProjects} />
-        <h2 class="pb-24 flex justify-end">
-          <a
-            class="flex dark:text-light flex-right flex-nowrap decoration-clone bg-gradient-to-r from-slate-400 via-slate-500 to-slate-500 p-1.5 w-60 text-center rounded-xl"
-            href="/projects"
-            "
-          >
-            Voir tous les projets <img
-              class="w-8"
-              src="/public/assets/images/arrow.svg"
-            />
-          </a>
-        </h2>
+        <div class="flex flex-row-reverse mb-8">
+          <button
+            type="button"
+            class="text-gray-900 bg-gradient-to-b from-slate-400 to--500 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 w-50"
+            ><a href="/projects">
+              <span class="flex flex-row gap-2"
+                >Voir tous les projets<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-activity"
+                  ><line x1="4" y1="12" x2="20" y2="12"></line><polyline
+                    points="14 6 20 12 14 18"></polyline></svg
+                >
+              </span>
+            </a>
+          </button>
+        </div>
       </section>
     </Layout>
   </body>
