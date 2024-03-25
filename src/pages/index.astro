@@ -21,13 +21,13 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
     <MetaHead
       title={"Portfolio"}
       description={info.about}
-      ogImageUrl={"/assets/images/profile.png"}
+      ogImageUrl={"/assets/images/profile.jpg"}
     />
   </head>
 
   <body>
     <Layout>
-      <Hero name={info.name} about={info.about} />
+      <Hero name={info.name} about={"info.about"} />
 
       <section>
         <h2 class="text-center dark:text-light mt-16">COMPÉTENCES</h2>
@@ -37,68 +37,142 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
         >
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >HTML5
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://developer.mozilla.org/fr/docs/Web/HTML">HTML5</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >CSS3
+            ><a
+              class="dark:text-light"
+              target="_blank"
+              href="https://developer.mozilla.org/fr/docs/Web/CSS">CSS3</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
           >
-            FLEXBOX
-          </span>
-          <span
-            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >GRID
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox"
+              >FLEXBOX</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
           >
-            SCSS
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids"
+            >
+              GRID</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >ARIA
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://sass-lang.com/">SASS</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >JAVASCRIPT
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA"
+              >ARIA</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >REACT
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+              >JAVASCRIPT</a
+            >
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            <a class="dark:text-light" target="_blank" href="https://react.dev/"
+              >REACT</a
+            >
           </span>
 
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
           >
-            REDUX
-          </span>
-          <span
-            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >JEST
-          </span>
-          <span
-            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >NPM
-          </span>
-          <span
-            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >SWAGGER
-          </span>
-          <span
-            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >GIT
-          </span>
-          <span
-            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
-            >GITHUB
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://react-redux.js.org/">REDUX</a
+            >
           </span>
           <span
             class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
           >
-            FIGMA
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://jestjs.io/fr/">JEST</a
+            >
+          </span>
+
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://recharts.org/en-US/">RECHARTS</a
+            >
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://swagger.io/">SWAGGER</a
+            >
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://git-scm.com/">GIT</a
+            >
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://github.com/">GITHUB</a
+            >
+          </span>
+          <span
+            class="text-center decoration-clone bg-gradient-to-b from-slate-400 to--500"
+          >
+            <a
+              class="dark:text-light"
+              target="_blank"
+              href="https://www.figma.com/fr/">FIGMA</a
+            >
           </span>
         </h3>
         <hr class="text-stone-900 dark:text-light mx-auto w-2/3" />
