@@ -1,24 +1,13 @@
 export const info = {
   baseUrl: "",
   name: "Bienvenue sur mon site",
-  jobDescription: "développeur front-end",
+  jobDescription: "développeur web",
 
   socialMedia: {
     github: "https://github.com/m-amroune",
     email: "mailto:amroune.moustapha@gmail.com",
     linkedin: "https://www.linkedin.com/in/moustapha-amroune-839986182/",
   },
-
-  // competences: [
-  //   {
-  //     title:
-  //       "HRNet (Wealth Health) : Faites passer une librairie jQuery vers React",
-  //     isFeatured: true,
-  //     thumbnail: "/assets/images/hrnet.png",
-  //     githubUrl: "https://github.com/m-amroune/HRNet/tree/main",
-  //     liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-  //   },
-  // ],
 
   projects: [
     {

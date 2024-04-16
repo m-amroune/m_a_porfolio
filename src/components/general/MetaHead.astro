@@ -24,8 +24,8 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
     <link rel="canonical" href={`${info.baseUrl}${Astro.url.pathname}`} />
   )
 }
-{title && <title>{`${title} - ${info.name}`}</title>}
-{title && <meta name="title" content={`${title} - ${info.name}`} />}
+{title && <title>{`${title} - Moustapha Amroune`}</title>}
+{title && <meta name="title" content={`${title} - Moustapha Amroune`} />}
 {description && <meta name="description" content={description} />}
 
 <!-- Open Graph / Facebook -->
@@ -35,7 +35,7 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
     <meta property="og:url" content={`${info.baseUrl}${Astro.url.pathname}`} />
   )
 }
-{title && <meta property="og:title" content={`${title} - ${info.name}`} />}
+{title && <meta property="og:title" content={`${title} - Moustapha Amroune`} />}
 {description && <meta property="og:description" content={description} />}
 {
   ogImageUrl && (
@@ -53,7 +53,11 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
     />
   )
 }
-{title && <meta property="twitter:title" content={`${title} - ${info.name}`} />}
+{
+  title && (
+    <meta property="twitter:title" content={`${title} - Moustapha Amroune`} />
+  )
+}
 {description && <meta property="twitter:description" content={description} />}
 {
   ogImageUrl && (
